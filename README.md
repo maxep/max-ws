@@ -1,6 +1,7 @@
 # MAX-WS
 
 [![CI Status](http://img.shields.io/travis/maxep/max-ws.svg?style=flat)](https://travis-ci.org/maxep/max-ws)
+[![npm](https://img.shields.io/npm/l/express.svg?style=flat)](http://opensource.org/licenses/MIT)
 
 Mobile API for XML Web Services (MAX-WS).
 
