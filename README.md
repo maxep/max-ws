@@ -4,7 +4,7 @@ Mobile API for XML Web Services (MAX-WS).
 WSDL to IOS Objective-C and Android Java Code Generator based on JAX-WS Wsimport.
 
 ##_Note_
-MAX-WS is initially a fork of [mwsc](https://github.com/maxep/mwsc)._
+_MAX-WS is initially a fork of [mwsc](https://github.com/maxep/mwsc)._
 
 _[MWSC](https://github.com/maxep/mwsc) (and related projects: [mxjc](https://github.com/maxep/mxjc), [nano](https://github.com/maxep/nano) & [pico](https://github.com/bulldog2011/pico)) has been developed by [bulldog2011](http://bulldog2011.github.com) but stayed as is from 2013. As it is very well designed and implemented, I decided to fork and upgrade it._
 
@@ -22,7 +22,7 @@ _[MWSC](https://github.com/maxep/mwsc) (and related projects: [mxjc](https://git
 
 ## How to Use
 
-Download zip package from repository mentioned in version history below, latest stable release is [0.6.0](https://github.com/bulldog2011/bulldog-repo/raw/master/repo/releases/com/leansoft/mwsc/0.6.0/mwsc-0.6.0-bin.zip), then extract the zip file and run mwsc script in command line:
+Download zip package from repository mentioned in version history below, latest stable release is [0.7.0](https://github.com/maxep/max-ws/releases/tag/v0.7.0), then extract the zip file and run mwsc script in command line:
 
 	Usage: mwsc [options] <WSDL_URI>
 	
@@ -51,17 +51,14 @@ Download zip package from repository mentioned in version history below, latest 
   
 ## Version History
 
-#### 0.6.1 - TBD
-  * Enhancement: support Ant build.
-  * Feature : GUI for mwsc code generator
-  * Feature : mwsc code generator as a hosted service
+#### 0.7.0 - *April 9, 2015* : [repository](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/maxb/0.7.0)
+  * Feature : Support ARC
 
 #### 0.6.0 — *April 14, 2013* : [repository](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/mwsc/0.6.0)
   * This version is compatible with [Nano 0.7.0](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/nano/0.7.0) and [Pico 0.5.0](https://github.com/bulldog2011/pico/tree/v0.5.0)
   * Feature: support Nano Web Service runtime for Android
 
 #### 0.5.0 — *March 25, 2013* : [repository](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/mwsc/0.5.0)
-
   * Initial version supporting Pico Web Service runtime for iOS
   * This version is compatible with [Pico 0.5.0](https://github.com/bulldog2011/pico/tree/v0.5.0)
   
@@ -81,10 +78,4 @@ Download zip package from repository mentioned in version history below, latest 
 
 ## License
 
-MAXB is available under the MIT license. See the [LICENSE](LICENSE) file for more info. 
-
-
-
-
-
-
+MAX-WS is available under the MIT license. See the [LICENSE](LICENSE) file for more info. 
