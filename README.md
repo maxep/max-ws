@@ -24,7 +24,7 @@ _[MWSC](https://github.com/maxep/mwsc) (and related projects: [mxjc](https://git
 
 Download zip package from repository mentioned in version history below, latest stable release is [0.7.0](https://github.com/maxep/max-ws/releases/tag/v0.7.0), then extract the zip file and run mwsc script in command line:
 
-	Usage: mwsc [options] <WSDL_URI>
+	Usage: max-ws [options] <WSDL_URI>
 	
 	where [options] include:
 	  -nano                     target Nano for Android as code generation target(default)
