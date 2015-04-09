@@ -1,4 +1,7 @@
 # MAX-WS
+
+[![CI Status](http://img.shields.io/travis/maxep/max-ws.svg?style=flat)](https://travis-ci.org/maxep/max-ws)
+
 Mobile API for XML Web Services (MAX-WS).
 
 WSDL to IOS Objective-C and Android Java Code Generator based on JAX-WS Wsimport.
