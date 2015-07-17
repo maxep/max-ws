@@ -10,9 +10,9 @@ Mobile API for XML Web Services (MAX-WS).
 WSDL to IOS Objective-C and Android Java Code Generator based on JAX-WS Wsimport.
 
 ##_Note_
-_MAX-WS is initially a fork of [mwsc](https://github.com/maxep/mwsc)._
+_MAX-WS is initially a fork of [mwsc](https://github.com/bulldog2011/mwsc)._
 
-_[MWSC](https://github.com/maxep/mwsc) (and related projects: [mxjc](https://github.com/maxep/mxjc), [nano](https://github.com/maxep/nano) & [pico](https://github.com/bulldog2011/pico)) has been developed by [bulldog2011](http://bulldog2011.github.com) but stayed as is from 2013. As it is very well designed and implemented, I decided to fork and upgrade it._
+_[MWSC](https://github.com/bulldog2011/mwsc) (and related projects: [mxjc](https://github.com/bulldog2011/mxjc), [nano](https://github.com/bulldog2011/nano) & [pico](https://github.com/bulldog2011/pico)) has been developed by [bulldog2011](http://bulldog2011.github.com) but stayed as is from 2013. As it is very well designed and implemented, I decided to fork and upgrade it._
 
 ## Feature Highlight
 1. ***Standard based*** : based on [Oracle JAX-WS 2.1](http://jax-ws.java.net/2.1.1) Wsimport, recognize most standard WSDL and XML Schema components.
