@@ -57,7 +57,7 @@ Download zip package from repository mentioned in version history below, latest 
   
 ## Version History
 
-#### 0.7.0 - *April 9, 2015* : [repository](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/maxb/0.7.0)
+#### 0.7.0 - *April 9, 2015* : [repository](https://github.com/maxep/mvn-repo/tree/releases/com/leansoft/max-ws/0.7.0)
   * Feature : Support ARC
 
 #### 0.6.0 — *April 14, 2013* : [repository](https://github.com/bulldog2011/bulldog-repo/tree/master/repo/releases/com/leansoft/mwsc/0.6.0)
