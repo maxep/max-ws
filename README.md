@@ -51,8 +51,8 @@ Download zip package from repository mentioned in version history below, latest 
 	
 	
 	Examples:
-	  mwsc -pico -prefix StockWS_ -d generated http://example.org/stock?wsdl
-	  mwsc -nano -d generated http://example.org/stock?wsdl
+	  max-ws -pico -prefix StockWS_ -d generated http://example.org/stock?wsdl
+	  max-ws -nano -d generated http://example.org/stock?wsdl
   
   
 ## Version History
