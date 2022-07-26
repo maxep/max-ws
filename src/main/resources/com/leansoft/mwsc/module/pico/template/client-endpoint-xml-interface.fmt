@@ -24,14 +24,15 @@
 }
 
     [#list endpointInterface.methods as method]
-    [#assign param = method.parameters?first]
-/**
- ${method.docComment?default("public method")?replace("\n", "\n ")?replace("\t", "")}
-*/
--(void)${method.name}:(${param.type.fullName} *) requestObject 
-      success:(void (^)(${method.returnType.fullName} *responseObject))success
-      failure:(void (^)(NSError *error))failure;
-
+        [#if method.parameters?has_content && method.parameters?first??]
+            [#assign param = method.parameters?first]
+        /**
+        ${method.docComment?default("public method")?replace("\n", "\n ")?replace("\t", "")}
+        */
+        -(void)${method.name}:(${param.type.fullName} *) requestObject 
+            success:(void (^)(${method.returnType.fullName} *responseObject))success
+            failure:(void (^)(NSError *error))failure;
+        [/#if]
     [/#list]
 
 @end
