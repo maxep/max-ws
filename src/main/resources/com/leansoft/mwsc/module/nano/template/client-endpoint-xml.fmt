@@ -24,23 +24,24 @@ public class ${endpointInterface.name}_XMLClient extends NanoXMLClient {
 
 
     [#list endpointInterface.methods as method]
-    [#assign param = method.parameters?first]
-    /**
-     ${method.docComment?default("public method")?replace("\n", "\n ")?replace("\t", "")}
-    */
-    public void ${method.name}(${param.type.name} requestObject, XMLServiceCallback<${method.returnType.name}> serviceCallback) {
-       
-       [#if config.EBayShoppingAPI] 
-       [#if method.webMethodAnnotation.operationName?length > 0]
-        super.getAsyncHttpClient().addHeader("X-EBAY-API-CALL-NAME", "${method.webMethodAnnotation.operationName}");
-       [#else]
-        super.getAsyncHttpClient().addHeader("X-EBAY-API-CALL-NAME", "${method.name}");       
-       [/#if]
-       [/#if]
-        
-        super.invoke(requestObject, serviceCallback, ${method.returnType.name}.class);
-    }
-
+        [#if method.parameters?has_content && method.parameters?first??]
+            [#assign param = method.parameters?first]
+            /**
+            ${method.docComment?default("public method")?replace("\n", "\n ")?replace("\t", "")}
+            */
+            public void ${method.name}(${param.type.name} requestObject, XMLServiceCallback<${method.returnType.name}> serviceCallback) {
+            
+            [#if config.EBayShoppingAPI] 
+            [#if method.webMethodAnnotation.operationName?length > 0]
+                super.getAsyncHttpClient().addHeader("X-EBAY-API-CALL-NAME", "${method.webMethodAnnotation.operationName}");
+            [#else]
+                super.getAsyncHttpClient().addHeader("X-EBAY-API-CALL-NAME", "${method.name}");       
+            [/#if]
+            [/#if]
+                
+                super.invoke(requestObject, serviceCallback, ${method.returnType.name}.class);
+            }
+        [/#if]
     [/#list]
 
 }
